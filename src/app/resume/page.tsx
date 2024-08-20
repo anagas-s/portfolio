@@ -23,7 +23,7 @@ export default function Home() {
         </Paragraph>
         <button className="mt-10 p-3 bg-black text-white border rounded-3xl">
           <Link
-            href="https://drive.google.com/file/d/1atozIzT97UUD4flXyfBu2Ona2rVP3QjK/view"
+            href="https://drive.google.com/file/d/1Q3hgOrhYKiSNkblgYewj4k4DXrxqdYKl/view?usp=drive_link"
             target="_blank"
           >
             {" "}
