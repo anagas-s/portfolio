@@ -3,6 +3,10 @@ import devconnect2 from "public/images/devconnect-2.png";
 import gptflix1 from "public/images/gptflix-1.png";
 import gptflix2 from "public/images/gptflix-2.png";
 import gptflix3 from "public/images/gptflix-3.png";
+import careersensei1 from "public/images/careersensei-1.png";
+import careersensei2 from "public/images/careersensei-2.png";
+import careersensei3 from "public/images/careersensei-3.png";
+import careersensei4 from "public/images/careersensei-4.png";
 
 export const products = [
   {
@@ -69,34 +73,38 @@ export const products = [
       </div>
     ),
   },
-  // {
-  //   href: "https://gomoonbeam.com",
-  //   title: "Moonbeam",
-  //   description:
-  //     "Never write from scratch again with Moonbeam, your AI first writing tool",
-  //   thumbnail: sidefolioMoonbeam,
-  //   images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-  //   stack: ["Nextjs", "Tailwindcss"],
-  //   slug: "moonbeam",
-  //   content: (
-  //     <div>
-  //       <p>
-  //         Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-  //         dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-  //         cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-  //         cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-  //         non cupidatat duis esse velit ut culpa et.{" "}
-  //       </p>
-  //       <p>
-  //         Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-  //         Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-  //         sit aute fugiat incididunt nostrud consequat proident fugiat id.
-  //         Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-  //         reprehenderit. Cillum Lorem veniam eu magna exercitation.
-  //         Reprehenderit adipisicing minim et officia enim et veniam Lorem
-  //         excepteur velit adipisicing et Lorem magna.
-  //       </p>{" "}
-  //     </div>
-  //   ),
-  // },
+  {
+    href: "https://careersensei-ai.vercel.app/",
+    title: "Career Sensei",
+    description:
+      "CareerSensei is an AI-powered career coaching platform that provides AI-driven resume building, mock interview preparation, industry insights, and personalized career guidance to help users land their dream jobs. ",
+    thumbnail: careersensei1,
+    images: [careersensei2, careersensei3, careersensei4],
+    stack: ["Nextjs", "Tailwindcss"],
+    slug: "careersensei",
+    content: (
+      <div>
+        <p>
+          <ul>
+            <li>
+              AI Resume Builder – Generates ATS-optimized resumes with
+              AI-powered content enhancement.
+            </li>
+            <li>
+              AI Cover Letter Generator – Analyzes job descriptions and creates
+              tailored cover letters automatically.
+            </li>
+            <li>
+              Mock Interview Preparation – Provides role-specific interview
+              questions and tracks performance over time.
+            </li>
+            <li>
+              Personalized Industry Insights – Displays real-time job market
+              trends, salary insights, and in-demand skills for your industry.
+            </li>
+          </ul>
+        </p>{" "}
+      </div>
+    ),
+  },
 ];
